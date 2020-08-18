@@ -11,8 +11,9 @@ def turn_count(board)
           count = count
         end
     end
+    puts count
     return count
-end
+  end
 
 
 def current_player(count)
