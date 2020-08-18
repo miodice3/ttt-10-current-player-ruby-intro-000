@@ -14,7 +14,7 @@ def turn_count(board)
 #          puts count
         end
     end
-    puts count
+    return count
 end
 
 
