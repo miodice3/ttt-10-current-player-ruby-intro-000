@@ -5,10 +5,13 @@ def turn_count(board)
       board.each do |check|
         if check == "O" #|| "X"
           count +=1
+          puts count
         elsif check == "X"
-          count +=1 
+          count +=1
+          puts count
         else
           count = count
+          puts count
         end
     end
 end
