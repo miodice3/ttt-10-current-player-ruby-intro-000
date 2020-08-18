@@ -26,3 +26,5 @@ def current_player(count)
     return
   end
 end
+
+turn_count(board)
