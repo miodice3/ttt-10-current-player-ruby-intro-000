@@ -3,15 +3,12 @@ board = ["O", " ", " ", " ", "X", " ", " ", "O", "X"]
 def turn_count(board)
     count = 0
       board.each do |check|
-        if check == "O" #|| "X"
+        if check == "O" || check == "X"
           count +=1
-#          puts count
-        elsif check == "X"
-          count +=1
-#          puts count
+#        elsif check == "X"
+#          count +=1
         else
           count = count
-#          puts count
         end
     end
     return count
